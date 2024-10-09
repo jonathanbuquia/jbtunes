@@ -1,0 +1,56 @@
+.others-section {
+  display: flex;
+  max-width: 1400px;
+  margin: 150px auto auto auto;
+  /* border: 1px solid black; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.others-images,
+.others-descriptions {
+  flex: 1;
+}
+
+/* ---- LEFT CONTAINER ---- */
+
+.others-images {
+  position: relative;
+}
+.others-images > img {
+  border-radius: 15px;
+  position: absolute;
+}
+
+.others-images-blue {
+  top: 10px;
+  left: 100px;
+}
+
+.others-images-black {
+  top: -100px;
+  right: 140px;
+}
+
+.others-images-red {
+  top: 105px;
+  right: 90px;
+}
+
+.others-images-green {
+  top: 260px;
+  left: 150px;
+}
+
+/* ---- RIGHT CONTAINER ---- */
+
+.others-descriptions {
+  padding-right: 50px;
+  padding-top: 90px;
+}
+
+.others-descriptions > h3 {
+  font-size: 50px;
+  font-family: var(--font-title);
+  padding-bottom: 30px;
+}

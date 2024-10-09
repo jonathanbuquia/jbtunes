@@ -1,0 +1,67 @@
+.best-deals-card-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin-top: 150px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.card-left-container,
+.card-right-container {
+  flex: 1;
+  /* border: 1px solid black; */
+}
+
+/* ----- LEFT CONTAINER -----*/
+
+.card-left-container {
+  padding: 50px;
+}
+
+.card-left-container > h3 {
+  font-family: var(--font-title);
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.card-left-container > p {
+  padding-bottom: 30px;
+}
+
+.lower-section {
+  display: flex;
+  align-items: center;
+}
+
+.lower-section > span {
+  color: var(--other-color-3);
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.lower-section > button {
+  padding: 10px;
+  background-color: var(--other-color-1);
+  color: var(--secondary);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ----- RIGHT CONTAINER ----- */
+
+.card-right-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.best-deals-image {
+  position: absolute;
+  top: -110px;
+  right: 50px;
+  max-width: 90%;
+}

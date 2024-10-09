@@ -1,0 +1,56 @@
+.footer-section {
+  max-width: 100%;
+  /* border: 1px solid black; */
+  margin: 150px auto auto auto;
+  background-color: var(--secondary);
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+
+  /* border: 1px solid black; */
+  gap: 50px;
+  padding: 20px;
+}
+
+.flex > h3 {
+  padding-bottom: 20px;
+}
+
+.footer-p,
+.footer-a {
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+/* ------ 1St CONTAINER -------- */
+
+.logo {
+  font-size: 25px;
+}
+
+.sm-icons {
+  color: #ffffff;
+  width: 40px;
+  height: 30px;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+.download-section {
+  padding-bottom: 20px;
+  margin-top: 6px;
+}
+
+.footer-icon {
+  padding-right: 4px;
+}
